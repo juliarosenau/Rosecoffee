@@ -1,156 +1,141 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="src/css/style.css" />
+		<link rel="stylesheet" href="src/css/reset.css" />
+		<link rel="shortcut icon" href="src/img/Favicon.png" type="image/x-icon" />
+		<title>RoseCoffee</title>
+		<meta name="description" content="Explore dezenas de variações da bebida favorita entre os devs ao redor mundo!" />
+	</head>
+	<body>
+		<header>
+			<nav>
+				<span class="logo">RoseCoffee</span>
+                <ul class="menu">
+                    <li><a>Home</a></li>
+                    <li><a>Receitas</a></li>
+                    <li><a>Novidades</a></li>
+                    <li><a>Melhor avaliadas</a></li>
+                </ul>
+                <a href="https://github.com/juliarosenau" class="github" target="_blank">Github</a>
+			</nav>
+		</header>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RoseCoffee</title>
-    <meta name="description" content="Explore dezenas de variações da bebida favorita entre os devs ao redor do mundo!">
-    <link rel="stylesheet" type="text/css" href="style.css">
+		<main>
+			<div class="principal">
+				<section class="hero">
+					<header class="hero-conteudo">
+						<span class="destaque marrom">novidade</span>
+						<h1>Encontre a receita perfeita!</h1>
+						<hr />
+						<h2 class="hero-subtitulo">
+							Explore dezenas de variações da bebida favorita entre os devs ao redor do mundo!
+						</h2>
+					</header>
+					<div class="hero-imagens">
+						<figure>
+							<img src="src/img/image-8.png" alt="imagem" />
+							<img src="src/img/image-9.png" alt="imagem" />
+							<img src="src/img/image-10.png" alt="imagem" />
+							<img src="src/img/image-11.png" alt="imagem" />
+							<img src="src/img/image-12.png" alt="imagem" />
+							<img src="src/img/image-13.png" alt="imagem" />
+							<img src="src/img/image-14.png" alt="imagem" />
+							<img src="src/img/image-15.png" alt="imagem" />
+							<img src="src/img/image-16.png" alt="imagem" />
+							<img src="src/img/image-17.png" alt="imagem" />
+							<img src="src/img/image-8.png" alt="imagem" />
+							<img src="src/img/image-18.png" alt="imagem" />
+							<img src="src/img/image-19.png" alt="imagem" />
+							<img src="src/img/image-20.png" alt="imagem" />
+							<img src="src/img/image-21.png" alt="imagem" />
+							<img src="src/img/image-22.png" alt="imagem" />
+							<img src="src/img/image-23.png" alt="imagem" />
+						</figure>
+					</div>
+				</section>
 
-</head>
+				<section class="botao-container">
+					<button>
+						<img src="src/img/button.svg" alt="botão" />
+					</button>
+				</section>
 
-<body>
-    <header>
+				<section class="receitas">
+					<header class="receitas-cabecalho">
+						<span class="destaque marrom">receitas</span>
+						<h2 class="receitas-titulo">Confira as últimas receitas</h2>
+						<p class="receitas-subtitulo">Dê uma olhada nas receitas mais amadas!</p>
+					</header>
+					<div class="receitas-card-container">
+						<div class="receitas-card">
+							<header class="receitas-card-cabecalho">
+								<div class="receitas-card-cabecalho-detalhes">
+									<span>Em Alta 🔥</span>
+									<h3>Cappuccino ☕</h3>
+								</div>
+								<p>Extraordinário 4/5</p>
+							</header>
+							<p>Uma bebida ideal para os amantes de doce e cremosidade. 😻</p>
+							<div class="receita-autor">
+								<img src="./src/img/julia.jpg" alt="foto de perfil Julia Rosenau" />
+								<span class="receita-nome-usuario">Julia Rosenau</span>
+							</div>
+						</div>
+						<div class="receitas-card">
+							<header class="receitas-card-cabecalho">
+								<div class="receitas-card-cabecalho-detalhes">
+									<span>Em Alta 🔥</span>
+									<h3>Latte Macchiato ☕</h3>
+								</div>
+								<p>Delicioso 5/5</p>
+							</header>
+							<p>Uma bebida clássica com uma camada de leite vaporizado sobre o espresso. ☕️</p>
+							<div class="receita-autor">
+								<img src="./src/img/jao.jpeg" alt="foto de perfil do Jao" />
+								<span class="receita-nome-usuario">Jao</span>
+							</div>
+						</div>
 
-        <main>
-            <section>
+						<div class="receitas-card">
+							<header class="receitas-card-cabecalho">
+								<div class="receitas-card-cabecalho-detalhes">
+									<span>Novidade 🌟</span>
+									<h3>Mocha Frappuccino ☕</h3>
+								</div>
+								<p>Refrescante 4.5/5</p>
+							</header>
+							<p>Uma bebida gelada com café, leite, chocolate e chantilly. 🍫</p>
+							<div class="receita-autor">
+								<img src="./src/img/mulher.png" alt="foto de perfil da mulher aleatória 1" />
+								<span class="receita-nome-usuario">mulher aleatória 1</span>
+							</div>
+						</div>
 
-            </section>
-            <section>
+						<div class="receitas-card">
+							<header class="receitas-card-cabecalho">
+								<div class="receitas-card-cabecalho-detalhes">
+									<span>Novidade 🌟</span>
+									<h3>Flat White ☕</h3>
+								</div>
+								<p>Perfeito 5/5</p>
+							</header>
+							<p>Uma bebida forte e cremosa com uma dose dupla de espresso. ☕️</p>
+							<div class="receita-autor">
+								<img src="./src/img/mulher2.jpg" alt="foto de perfil da mulher aleatória 2" />
+								<span class="receita-nome-usuario">mulher aleatória 2</span>
+							</div>
+						</div>
+					</div>
+				</section>
+			</div>
+		</main>
 
-            </section>
-            <section>
-                <header>
-
-                </header>
-            </section>
-
-        </main>
-
-        <nav>
-            <span class="logo">RoseCoffee</span>
-            <ul class="menu">
-                <li><a>Home</a></li>
-                <li><a>Receitas</a></li>
-                <li><a>Novidades</a></li>
-                <li><a>Melhor avaliadas</a></li>
-
-            </ul>
-            <a class="github">Github</a>
-        </nav>
-    </header>
-    <main>
-        <div class="principal">
-
-        <section  class="hero">
-            <header class="hero-conteudo" >
-                <span calss="destaque marrom">novidade</span>
-                <h1>Encontre a receita perfeita!</h1>
-              <hr />
-                <h2 class="hero subtitulo">Explore dezenas de variações da bebida favorita entre os devs ao redor do mundo!</h2>
-            </header>
-            <div class="hero-imagens-container">
-
-                <figure><img src="assests/image-8.png" /></figure>
-                <figure><img src="assests/image-9.png" /></figure>
-                <figure><img src="assests/image-10.png" /></figure>
-                <figure><img src="assests/image-11.png" /></figure>
-                <figure><img src="assests/image-12.png" /></figure>
-                <figure><img src="assests/image-13.png" /></figure>
-                <figure><img src="assests/image-14.png" /></figure>
-                <figure><img src="assests/image-15.png" /></figure>
-                <figure><img src="assests/image-16.png" /></figure>
-                <figure><img src="assests/image-17.png" /></figure>
-                <figure><img src="assests/image-18.png" /></figure>
-                <figure><img src="assests/image-19.png" /></figure>
-                <figure><img src="assests/image-20.png" /></figure>
-                <figure><img src="assests/image-21.png" /></figure>
-                <figure><img src="assests/image-22.png" /></figure>
-                <figure><img src="assests/image-23.png" /></figure>
-
-
-            </div>
-        </section>
-        <div/>
-        <section class="botao-container">
-            <button type="button">
-                <img src="assests/button.svg" />
-            </button>
-        </section>
-        <section class="receitas">
-            <header class="receitas-cabecalho">
-                <span class="destaque marrom">receitas</span>
-                <h2 class="receitas-titulo">Confira as últimas receitas</h2>
-                <p>Dê uma olahda nas receitas mais amadas</p>
-
-            </header>
-            <div>
-                <div>
-                    <header>
-                        <div>
-                            <span>Em Alta 🔥</span>
-                            <h3>Cappuccino ☕</h3>
-                        </div>
-                        <p>Extraordinário 4/4</p>
-
-                    </header>
-                    <p>Uma bebida ideal para os amantes de doce e cremosidade. 😻 </p>
-                    <div>
-                        <figure><img src="assests/julia.jpg""/></figure>
-            
-                <span>Julia Rosenau</span>
-            </div>
-            <div>
-                <span>Novo</span>
-                <h3>Expresso</h3>
-            </div>
-            <p>Bom 3/4</p>
-        
-            </header>
-            <p>Para quem gosta de um café amargo. </p>
-            <div> 
-                <figure><img src=" assests/mulher.png"" /></figure>
-
-                        <span>Maria</span>
-
-                    </div>
-                    <div>
-                        <span>Mais votado</span>
-                        <h3>Chocolate Quente</h3>
-                    </div>
-                    <p>Maravilhoso 4/4</p>
-
-                    </header>
-                    <p>Docinho e cremoso</p>
-                    <div>
-                        <figure><img src="assests/jao.jpeg""/></figure>
-            
-                <span>João</span>
-            </div>
-
-            <div>
-                <span>Mais pedido</span>
-                <h3>Refresh de pitaya</h3>
-            </div>
-            <p>Incrivel 4/4</p>
-        
-            </header>
-            <p>Aquela bebida para passar o calor! Deliciosa</p>
-            <div> 
-                <figure><img src=" assests/mulher2.jpg"" /></figure>
-
-                        <span>Ana</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p> Copyright &lt;CODEFEE /&gt; 2024 </p>
-
-        <p>FEito com muito 💜 e café por Julia Rosenau</p>
-    </footer>
-</body>
-
+		<footer>
+			<p>Copyright &lt;CODEFEE /&gt; 2024</p>
+			<p>Feito com muito 💜 e café por Julia Rosenau</p>
+		</footer>
+	</body>
 </html>
